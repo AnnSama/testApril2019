@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zxx"><!--на ru ругается валидатор-->
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header-wrapper">
+  <header class="container page-header">
+	<a href="/" class="header-logo">
+	  <img src="pic/logo-mobile.png" alt="">
+	</a>
+    <ul class="header-contacts">
+      <li><a href="tel:+79995554433" class="phone-icon ">+7 (999) 555-44-33</a></li>
+      <li><a href="mailto:super@news.ru" class="email-icon">super@news.ru</a></li>
+      <li><a href="mailto:super@news.ru" class="user-icon">username</a></li>
+    </ul>
+	<button class="callback-button">Заказать звонок</button>
+	<button onclick="document.querySelector('.nav-wrapper').classList.toggle('show')" class="menu-button" aria-label="Главное меню"></button>
+	<!--<button onclick="document.querySelector('.el').classList.toggle('pause')">="Переключатель"></button>-->
+  </header>
+</div>
+<div class="nav-wrapper bounce-in-top">
+  <nav class="container page-nav ">
+    <a href="/" class="page-nav-logo">
+      <img src="pic/logotype.png" alt="Логотип компании">
+    </a>
+    <ul class="main-menu">
+      <li><a href="glavnaya.html">Главная</a></li>
+      <li><a href="blog.html">Блог</a></li>
+      <li><a class="active">Новости</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+      <li><a href="aboutcompany.html">О компании</a></li>
+    </ul>
+  </nav>
+</div>
+
+<main class="container"> 
+	<header>
+		<ol class="breadcrumbs">
+		<li><a href="Firstpage.html">Главная</a></li>
+		<li><a>Новости</a></li> 
+		</ol>
+		<h1 class="header-right-side-line tracking-in-contract-bck">Новости</h1>	
+	</header>
+ 
+  <div class="main-content">
+    <article class="news-item hot-news-1 slide-in-left">
+	  <header> 
+        <div class="hot-news heartbeat ">Срочно!</div>
+        <a href="#" class="news-category">Категория новостей</a>
+        <h2>Заголовок новости</h2>
+      </header>
+      <div class="news-item-content">
+        <img src="pic/news1.png" alt="foto1">
+        <div>
+		  <p class="line-height-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem distinctio dolore explicabo 
+		  facere illo nam non numquam officia pariatur placeat, praesentium quam reprehenderit sapiente sit 
+		  voluptas voluptate!</p>			 
+          <a href="read.html" class="read-more">Читать далее</a>
+        </div>
+      </div>
+      <footer>
+        <time datetime="2019-04-18" class="calendar-icon news-category">18.04.2019</time>
+        <address class="article-user-icon news-category">Автор статьи</address>
+        <div class="eye-icon news-category">352</div>
+      </footer>
+	</article>
+
+	<article class="news-item slide-in-left-1">
+      <header>
+        <a href="#" class="news-category">Категория новостей</a>
+        <h2>Заголовок новости</h2>
+      </header>
+      <div class="news-item-content">
+        <img src="pic/news2.png" alt="foto1">
+        <div>
+		  <p class="line-height-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem distinctio dolore explicabo 
+		  facere illo nam non numquam officia pariatur placeat, praesentium quam reprehenderit sapiente sit 
+		  voluptas voluptate!</p>			 
+          <a href="read.html" class="read-more">Читать далее</a>
+        </div>
+      </div>
+      <footer>
+        <time datetime="2019-04-18 20:00" class="calendar-icon news-category">18.04.2019</time>
+        <address class="article-user-icon news-category">Автор статьи</address>
+        <div class="eye-icon news-category">352</div>
+      </footer>
+    </article>
+	
+	<article class="news-item slide-in-left-2">
+      <header>
+        <a href="#" class="news-category">Категория новостей</a>
+        <h2>Заголовок новости</h2>
+      </header>
+      <div class="news-item-content">
+        <img src="pic/news3.png" alt="foto1">
+        <div>
+		  <p class="line-height-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem distinctio dolore explicabo 
+		  facere illo nam non numquam officia pariatur placeat, praesentium quam reprehenderit sapiente sit 
+		  voluptas voluptate! </p>			 
+          <a href="read.html" class="read-more">Читать далее</a>
+        </div>
+      </div>
+      <footer>
+        <time datetime="2019-04-18" class="calendar-icon news-category">18.04.2019</time>
+        <address class="article-user-icon news-category">Автор статьи</address>
+        <div class="eye-icon news-category">352</div>
+      </footer>
+    </article>	
+	
+	<ol class="pagination">
+		<li><a class="pagination-left" href="pagination-left.html" title="предыдущая страница"></a></li>	
+		<li><a class="active"><b>1</b></a></li>	
+		<li><a href="2.html">2</a></li>	
+		<li><a href="3.html">3</a></li>		
+		<li><a href="4.html">4</a></li>		
+		<li><a class="pagination-right" href="pagination-right.html" title="следующая страница"></a></li>				
+	</ol>
+  </div>	
+				
+  <div class="aside-content slide-in-bottom">
+    <div class="sidebar-1 ">
+    <aside>
+      <form class="search-form">
+        <input type="search" class="search-field" placeholder="Поиск в новостях" aria-label="Поиск в новостях">
+      </form>
+    </aside>
+    <aside class="sidebar">
+      <h3 class="sidebar-title">Категории</h3>
+      <ul class="sidebar-list">
+        <li><a href="#">Свежее</a></li>
+        <li><a href="#">Звёзды кино</a></li>
+        <li><a href="#">Бытовуха</a></li>
+        <li><a href="#">Мистика</a></li>
+        <li><a href="#">Археология</a></li>
+        <li><a href="#">НЛО</a></li>
+        <li><a href="#">Технология</a></li>
+        <li><a href="#">Открытия</a></li>
+      </ul>
+    </aside>
+	</div>
+    <div class="sidebar-2">
+    <aside class="sidebar sidebar-3">
+      <h3 class="sidebar-title">Архив</h3>
+      <ul class="sidebar-list">
+        <li><a href="#">2014</a></li>
+        <li><a href="#">2015</a></li>
+        <li><a href="#">2016</a></li>
+        <li><a href="#">2017</a></li>
+        <li><a href="#">2018</a></li>		
+      </ul>
+    </aside>
+    <a href="#" class="promotion">
+      <img src="pic/promotion.png" alt="promotion">
+    </a>
+  	</div>
+  </div>
+</main>				
+
+<div class="footer-wrapper">
+  <footer class="container page-footer">
+    <a class="footer-logo" href="/">
+      <img src="pic/logo.png" alt="Logotype">
+    </a>
+    <div class="footer-list-wrapper">
+      <div class="footer-list-heading">Меню</div>
+      <ul class="footer-list">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Блог</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">О компании</a></li>
+      </ul>
+    </div>
+    <div class="footer-list-wrapper">
+      <div class="footer-list-heading">Категории</div>
+      <ul class="footer-list">
+        <li><a href="#">Свежее</a></li>
+        <li><a href="#">Звёзды кино</a></li>
+        <li><a href="#">Бытовуха</a></li>
+        <li><a href="#">Мистика</a></li>
+        <li><a href="#">Архeология</a></li>
+      </ul>
+    </div>
+    <div class="footer-list-wrapper">
+      <div class="footer-list-heading">Архив</div>
+      <ul class="footer-list">
+        <li><a href="#">2014</a></li>
+        <li><a href="#">2015</a></li>
+        <li><a href="#">2016</a></li>
+        <li><a href="#">2017</a></li>
+        <li><a href="#">2018</a></li>
+      </ul>
+    </div>
+    <div class="footer-list-wrapper">
+      <div class="footer-list-heading">Контакты</div>
+		<ul class="footer-list">
+			<li><a class="user-icon" href="#">super@news.ru</a></li>		
+			<li><a class="email-icon" href="#">super@news.ru</a></li>
+			<li><a class="phone-icon" href="#">+7(999)555-44-33</a></li>
+		</ul>
+    </div>
+	<small class="copyright">&copy;Super News 2001-2019</small>
+  </footer>
+</div>
+
+ <button class="scroll-to-top shadow-drop-2-center"> 
+	Вверх
+ </button>
+ 
+</body>
+</html>
